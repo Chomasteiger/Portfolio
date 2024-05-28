@@ -1,6 +1,10 @@
 import React from 'react';
 import '../index.css';
 import image1 from '../assets/Imagen1.jpg';
+import image2 from '../assets/Imagen2.jpg';
+import image3 from '../assets/Imagen3.jpg';
+import image5 from '../assets/Imagen5.jpg';
+import video from '../assets/screen-capture.mp4';
 
 const Project = () => {
     return (
@@ -12,7 +16,7 @@ const Project = () => {
 
             <div className="work-page slide delay01">
                 <div className="work-page-content">
-                    <h1>Days App</h1>
+                    <h1>Pasco Central Website</h1>
                     <h3 className="text">
                         Days is a beautiful countdown app to all the events that matter to you. Events are important, they're the small things in life that matter the most. Whether it's a wedding, a holiday or just a night out with your friends.
                     </h3>
@@ -40,14 +44,14 @@ const Project = () => {
                 <div className="video-iphone">
                     <div className="video-iphone-inner">
                         <video poster="" preload="none" autoplay loop muted playsInline>
-                            <source src="" type="video/mp4" />
+                            <source src={video} type="video/mp4" />
                         </video>
                         <div className="device-iphone12"></div>
                     </div>
                 </div>
-                <img src={image1} className="work-page-image" alt="Work Page" />
-                <img src={image1} className="work-page-image" alt="Work Page" />
-                <img src={image1} className="work-page-image" alt="Work Page" />
+                <img src={image2} className="work-page-image" alt="Work Page" />
+                <img src={image3} className="work-page-image" alt="Work Page" />
+                <img src={image5} className="work-page-image" alt="Work Page" />
                 <img src={image1} className="work-page-image" alt="Work Page" />
                 <img src={image1} className="work-page-image" alt="Work Page" />
                 <img src={image1} className="work-page-image" alt="Work Page" />
