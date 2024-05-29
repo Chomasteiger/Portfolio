@@ -4,7 +4,11 @@ import image1 from '../assets/Imagen1.jpg';
 import image2 from '../assets/Imagen2.jpg';
 import image3 from '../assets/Imagen3.jpg';
 import image5 from '../assets/Imagen5.jpg';
-import video from '../assets/screen-capture.mp4';
+import image6 from '../assets/Imagen6.jpg';
+import image7 from '../assets/Imagen7.jpg';
+import image8 from '../assets/Imagen8.jpg';
+import image9 from '../assets/Imagen9.jpg';
+
 
 const Project = () => {
     return (
@@ -18,22 +22,22 @@ const Project = () => {
                 <div className="work-page-content">
                     <h1>Pasco Central Website</h1>
                     <h3 className="text">
-                        Days is a beautiful countdown app to all the events that matter to you. Events are important, they're the small things in life that matter the most. Whether it's a wedding, a holiday or just a night out with your friends.
+                        Pasco Central is a soccer field rental company where people gather daily to enjoy soccer with friends, participate in tournaments, and practice training.
                     </h3>
                     <p>
-                        Days started as a side project back in 2015 when I entered and won a design contest. This event sparked the beginning of a new business venture and a lasting friendship with Matt Davenport, an iOS developer from Manchester, UK. Over the years, we've teamed up on various iOS projects, but Days has always remained our primary focus and passion. We're committed to constant improvement, iteration, and, above all, learning, to ensure our users' satisfaction.
+                    I engaged in constant communication with the owner, discussing the current workflow and gathering insights. This collaborative approach ensured that I understood the needs and pain points from the management's perspective. UX Tip: Involve stakeholders early and often to align the project goals with business objectives.
                     </p>
                     <p>
-                        As the lead designer of Days, I played a pivotal role in shaping the app's brand, framework, and user experience. From designing the app's interface to marketing materials and developing the website, my involvement spanned across various aspects of the app's identity and success, even refining app animations in Swift and Objective-C. Collaborating closely with Matt, we analyzed customer feedback, identified requirements, and prioritized business goals to drive the app's growth and revenue.
+                    I also spoke with customers to understand their experience and pain points from their perspective. Through several interviews, we concluded that a mobile app wouldn't be widely adopted by our customers. Instead, we discovered that a website would allow clients to make reservations easily without needing to call the establishment. UX Tip: Conduct user research to validate assumptions and ensure the solution addresses real user needs.
                     </p>
                     <p>
-                        To optimize user engagement and conversion, we conducted A/B tests on various features and parts of the interface, including the upgrade screen and pricing models. Through these tests, we gained valuable insights into user behavior and preferences, allowing us to refine our strategies and improve the app's performance continually.
+                    For the employees, we implemented an internal application to automate the system completely. This solution eliminated the cumbersome paperwork and streamlined operations at Pasco Central. UX Tip: Focus on user-friendly design and intuitive interfaces to reduce training time and improve adoption rates among employees.
                     </p>
                     <p>
-                        Days received widespread recognition and praise, with features on the Apple App Store and endorsements from Apple's SVP of Marketing, Greg Joswiak. By focusing on delivering a delightful user experience and leveraging customer feedback, Days achieved remarkable success and established itself as a top-tier app in the iOS ecosystem.
+                    The new system enhanced the user experience, making the reservation process seamless for customers and significantly improving operational efficiency for the staff. By prioritizing both customer and employee needs, we created a more efficient and enjoyable experience for everyone involved.
                     </p>
                     <p>
-                        Despite its success, we faced challenges such as balancing free events and revenue generation and optimizing the app for different user preferences. By listening to customer feedback and iterating on the app's features, we addressed these challenges and improved the app's overall usability and satisfaction. Additionally, we learned the importance of adopting an agile development approach and fostering a strong sense of community within our user base.
+                    Continuously gather feedback post-launch to iterate and refine the system, ensuring it remains aligned with user needs over time.
                     </p>
                     <p>
                         <a href="#">Days on The App Store</a>
@@ -41,20 +45,14 @@ const Project = () => {
                     </p>
                 </div>
                 <img src={image1} className="work-page-image" alt="Work Page" />
-                <div className="video-iphone">
-                    <div className="video-iphone-inner">
-                        <video poster="" preload="none" autoplay loop muted playsInline>
-                            <source src={video} type="video/mp4" />
-                        </video>
-                        <div className="device-iphone12"></div>
-                    </div>
-                </div>
                 <img src={image2} className="work-page-image" alt="Work Page" />
                 <img src={image3} className="work-page-image" alt="Work Page" />
                 <img src={image5} className="work-page-image" alt="Work Page" />
-                <img src={image1} className="work-page-image" alt="Work Page" />
-                <img src={image1} className="work-page-image" alt="Work Page" />
-                <img src={image1} className="work-page-image" alt="Work Page" />
+                <img src={image6} className="work-page-image" alt="Work Page" />
+                <img src={image7} className="work-page-image" alt="Work Page" />
+                <img src={image8} className="work-page-image" alt="Work Page" />
+                <img src={image9} className="work-page-image" alt="Work Page" />
+
 
                 <div className="back-to-projects">
                     <a href="#">Back to all project</a>
