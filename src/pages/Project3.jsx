@@ -10,7 +10,7 @@ import image8 from '../assets/Project1/Imagen8.jpg';
 import image9 from '../assets/Project1/Imagen9.jpg';
 
 
-const Project = () => {
+const Project3 = () => {
     return (
         <div>
             <div className="header slide">
@@ -20,7 +20,7 @@ const Project = () => {
 
             <div className="work-page slide delay01">
                 <div className="work-page-content">
-                    <h1>Pasco Central Website</h1>
+                    <h1>Project3</h1>
                     <h3 className="text">
                         Pasco Central is a soccer field rental company where people gather daily to enjoy soccer with friends, participate in tournaments, and practice training.
                     </h3>
@@ -63,4 +63,4 @@ const Project = () => {
     );
 }
 
-export default Project;
+export default Project3;

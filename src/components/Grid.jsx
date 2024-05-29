@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../index.css'; // Ensure the path to your CSS file is correct
-import image1 from '../assets/Imagen4.jpg'; // Ensure the path to your image is correct
+import image1 from '../assets/Project1/Imagen4.jpg';
+import image2 from '../assets/Project2/Imagen 6.jpg'; // Ensure the path to your image is correct
 
 const Grid = () => {
     // Array of projects with different images, titles, and descriptions
@@ -14,7 +15,7 @@ const Grid = () => {
         },
         {
             id: 2,
-            image: image1, // Example of a different image path
+            image: image2, // Example of a different image path
             title: 'Nights',
             description: 'IOS gfr App'
         },
