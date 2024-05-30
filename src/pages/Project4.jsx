@@ -4,11 +4,10 @@ import image1 from '../assets/Project1/Imagen1.jpg';
 import image2 from '../assets/Project1/Imagen2.jpg';
 import image3 from '../assets/Project1/Imagen3.jpg';
 import image5 from '../assets/Project1/Imagen5.jpg';
-import image6 from '../assets/Project1/Imagen6.jpg';
+import image6 from '../assets/Project1/Imagen 6.jpg';
 import image7 from '../assets/Project1/Imagen7.jpg';
 import image8 from '../assets/Project1/Imagen8.jpg';
 import image9 from '../assets/Project1/Imagen9.jpg';
-
 
 const Project4 = () => {
     return (
@@ -55,7 +54,7 @@ const Project4 = () => {
 
 
                 <div className="back-to-projects">
-                    <a href="#">Back to all project</a>
+                    <a href="/">Back to all project</a>
                 </div>
             </div>
             <footer className="slide delay03">@ Thomas Delli Antoni 2024</footer>

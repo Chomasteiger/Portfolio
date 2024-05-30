@@ -1,13 +1,9 @@
 import React from 'react';
 import '../index.css';
-import image1 from '../assets/Project1/Imagen1.jpg';
-import image2 from '../assets/Project1/Imagen2.jpg';
-import image3 from '../assets/Project1/Imagen3.jpg';
-import image5 from '../assets/Project1/Imagen5.jpg';
-import image6 from '../assets/Project1/Imagen6.jpg';
-import image7 from '../assets/Project1/Imagen7.jpg';
-import image8 from '../assets/Project1/Imagen8.jpg';
-import image9 from '../assets/Project1/Imagen9.jpg';
+import image1 from '../assets/Project4/Imagen1.jpg';
+import image2 from '../assets/Project4/Imagen 2.jpg';
+import image3 from '../assets/Project4/Imagen 3.jpg';
+import image4 from '../assets/Project4/Imagen 4.jpg';
 
 
 const Project3 = () => {
@@ -20,42 +16,29 @@ const Project3 = () => {
 
             <div className="work-page slide delay01">
                 <div className="work-page-content">
-                    <h1>Project3</h1>
+                    <h1>Go Service</h1>
                     <h3 className="text">
-                        Pasco Central is a soccer field rental company where people gather daily to enjoy soccer with friends, participate in tournaments, and practice training.
+                    The idea for a home services application emerged from a conversation with a friend about the difficulties of finding reliable domestic services in Argentina. In this market, securing trustworthy service providers typically relies on personal recommendations, which can be limiting and inefficient. This realization drove us to explore how we could simplify and improve the process for both service seekers and providers. 
                     </h3>
                     <p>
-                    I engaged in constant communication with the owner, discussing the current workflow and gathering insights. This collaborative approach ensured that I understood the needs and pain points from the management's perspective. UX Tip: Involve stakeholders early and often to align the project goals with business objectives.
+                    We began our project with comprehensive user research to understand the pain points and needs of both customers and service professionals. Through interviews, surveys, and focus groups, we gathered insights into the current challenges faced by users. Customers expressed frustration with the lack of transparent information and the difficulty in finding available service providers, while professionals highlighted the need for a reliable platform to manage bookings and payments.
                     </p>
                     <p>
-                    I also spoke with customers to understand their experience and pain points from their perspective. Through several interviews, we concluded that a mobile app wouldn't be widely adopted by our customers. Instead, we discovered that a website would allow clients to make reservations easily without needing to call the establishment. UX Tip: Conduct user research to validate assumptions and ensure the solution addresses real user needs.
+                    With our personas and user journeys in mind, we created wireframes and low-fidelity prototypes focusing on essential user flows, such as service search, booking, and profile management. We conducted usability testing with real users to gather feedback and iterate on our designs. These tests revealed the importance of a clean, intuitive interface and the necessity of features like ratings, reviews, and secure payment options to build user trust.
                     </p>
                     <p>
-                    For the employees, we implemented an internal application to automate the system completely. This solution eliminated the cumbersome paperwork and streamlined operations at Pasco Central. UX Tip: Focus on user-friendly design and intuitive interfaces to reduce training time and improve adoption rates among employees.
+                    After several iterations and continuous user feedback, we refined our prototypes into high-fidelity designs. The final design features a user-friendly interface with clear navigation and a modern aesthetic that conveys professionalism and trust. Advanced search filters, notification systems, and secure payment integration were added to enhance usability and convenience. By prioritizing user needs and incorporating their feedback throughout the design process, we created an application that simplifies the search for domestic services and supports professionals in managing their business efficiently.
                     </p>
-                    <p>
-                    The new system enhanced the user experience, making the reservation process seamless for customers and significantly improving operational efficiency for the staff. By prioritizing both customer and employee needs, we created a more efficient and enjoyable experience for everyone involved.
-                    </p>
-                    <p>
-                    Continuously gather feedback post-launch to iterate and refine the system, ensuring it remains aligned with user needs over time.
-                    </p>
-                    <p>
-                        <a href="#">Days on The App Store</a>
-                        <a href="#">Days Website</a>
-                    </p>
+                    
                 </div>
                 <img src={image1} className="work-page-image" alt="Work Page" />
                 <img src={image2} className="work-page-image" alt="Work Page" />
+                <img src={image4} className="work-page-image" alt="Work Page" />
                 <img src={image3} className="work-page-image" alt="Work Page" />
-                <img src={image5} className="work-page-image" alt="Work Page" />
-                <img src={image6} className="work-page-image" alt="Work Page" />
-                <img src={image7} className="work-page-image" alt="Work Page" />
-                <img src={image8} className="work-page-image" alt="Work Page" />
-                <img src={image9} className="work-page-image" alt="Work Page" />
 
 
                 <div className="back-to-projects">
-                    <a href="#">Back to all project</a>
+                    <a href="/">Back to all project</a>
                 </div>
             </div>
             <footer className="slide delay03">@ Thomas Delli Antoni 2024</footer>

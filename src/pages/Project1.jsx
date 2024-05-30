@@ -8,10 +8,6 @@ import image6 from '../assets/Project2/Imagen 5.jpg';
 import image7 from '../assets/Project2/Imagen 7.jpg';
 
 
-
-
-
-
 const Project1 = () => {
     return (
         <div>
@@ -53,13 +49,8 @@ const Project1 = () => {
                 <img src={image6} className="work-page-image" alt="Work Page" />
                 
 
-
-
-                
-
-
                 <div className="back-to-projects">
-                    <a href="#">Back to all project</a>
+                    <a href="/">Back to all projects</a>
                 </div>
             </div>
             <footer className="slide delay03">@ Thomas Delli Antoni 2024</footer>
