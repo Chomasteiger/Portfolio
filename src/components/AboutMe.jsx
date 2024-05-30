@@ -23,7 +23,7 @@ const AboutMe = () => {
         <div className="about-me slide delay03">
             <div className="description">
                 <p>
-                Hey there, I'm Thomas, a 24-year-old junior product designer based in Malaga, Spain. My specialty lies in creating intuitive product interfaces, bridging the gap between business objectives and user needs, and managing complete design projects from start to finish. I'm passionate about taking on diverse challenges in the ever-evolving design world.
+                Hey there, I'm Thomas, a 24-year-old argentinian junior product designer based in Malaga, Spain originally from My specialty lies in creating intuitive product interfaces, bridging the gap between business objectives and user needs, and managing complete design projects from start to finish. I'm passionate about taking on diverse challenges in the ever-evolving design world.
                 </p>
                 <Link to="/about" onClick={() => window.scrollTo(0, 0)}>More about me</Link> {/* Link to About page with scroll to top onClick */}
             </div>
