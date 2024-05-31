@@ -41,6 +41,7 @@ const Project4 = () => {
                     <p>
                         <a href="#">Days on The App Store</a>
                         <a href="#">Days Website</a>
+                        <a href="https://github.com/Chomasteiger/Portfolio" target="_blank" rel="noopener noreferrer">Check the code here!</a>
                     </p>
                 </div>
                 <img src={image1} className="work-page-image" alt="Work Page" />

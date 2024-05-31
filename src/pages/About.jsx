@@ -93,6 +93,7 @@ const About = () => {
                     <div className="multi-row contact-options">
                         <a id="copyemail" data-clipboard-text="thomi.delli@gmail.com">thomi.delli@gmail.com</a>
                         <a href="https://www.linkedin.com/in/thomasdelli/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                        <a href="https://github.com/Chomasteiger" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </div>
             </div>
