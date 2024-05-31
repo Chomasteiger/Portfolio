@@ -39,10 +39,7 @@ const Project = () => {
                     <p>
                     Continuously gather feedback post-launch to iterate and refine the system, ensuring it remains aligned with user needs over time.
                     </p>
-                    <p>
-                        <a href="#">Days on The App Store</a>
-                        <a href="#">Days Website</a>
-                    </p>
+                    
                 </div>
                 <img src={image1} className="work-page-image" alt="Work Page" />
                 <img src={image2} className="work-page-image" alt="Work Page" />
