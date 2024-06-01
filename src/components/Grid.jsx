@@ -5,6 +5,8 @@ import image1 from '../assets/Project1/Imagen5.jpg';
 import image2 from '../assets/Project2/Imagen 6.jpg';
 import image3 from '../assets/Project3/Portada.jpg';
 import image4 from '../assets/Project4/Portada.jpg';
+import image5 from '../assets/Project5/Portada.jpg';
+
 
 const Grid = () => {
     // Array of projects with different images, titles, and descriptions
@@ -35,9 +37,9 @@ const Grid = () => {
         },
         {
             id: 5,
-            image: image1, // Example of another different image path
-            title: 'GER',
-            description: 'IOS ger App'
+            image: image5, // Example of another different image path
+            title: 'My Portfolio',
+            description: 'The behind'
         },
     ];
 

@@ -1,13 +1,9 @@
 import React from 'react';
 import '../index.css';
-import image1 from '../assets/Project1/Imagen1.jpg';
-import image2 from '../assets/Project1/Imagen2.jpg';
-import image3 from '../assets/Project1/Imagen3.jpg';
-import image5 from '../assets/Project1/Imagen5.jpg';
-import image6 from '../assets/Project1/Imagen 6.jpg';
-import image7 from '../assets/Project1/Imagen7.jpg';
-import image8 from '../assets/Project1/Imagen8.jpg';
-import image9 from '../assets/Project1/Imagen9.jpg';
+import image1 from '../assets/Project5/Imagen1.jpg';
+import image2 from '../assets/Project5/Imagen2.jpg';
+import image3 from '../assets/Project5/Imagen3.jpg';
+
 
 const Project4 = () => {
     return (
@@ -19,39 +15,38 @@ const Project4 = () => {
 
             <div className="work-page slide delay01">
                 <div className="work-page-content">
-                    <h1>Project4</h1>
+                    <h1>Designing my portfolio</h1>
                     <h3 className="text">
-                        Pasco Central is a soccer field rental company where people gather daily to enjoy soccer with friends, participate in tournaments, and practice training.
+                    My portfolio showcases a variety of projects where I have utilized my expertise in UX,UI and Front End.
                     </h3>
                     <p>
-                    I engaged in constant communication with the owner, discussing the current workflow and gathering insights. This collaborative approach ensured that I understood the needs and pain points from the management's perspective. UX Tip: Involve stakeholders early and often to align the project goals with business objectives.
+                    My design process is iterative and user-centered. I start with wireframes to map out the structure and functionality. This step allows for easy adjustments and feedback incorporation before moving to high-fidelity designs. Using Figma, I transform these wireframes into visually stunning interfaces.
                     </p>
                     <p>
-                    I also spoke with customers to understand their experience and pain points from their perspective. Through several interviews, we concluded that a mobile app wouldn't be widely adopted by our customers. Instead, we discovered that a website would allow clients to make reservations easily without needing to call the establishment. UX Tip: Conduct user research to validate assumptions and ensure the solution addresses real user needs.
+                    Once the design is finish, I bring it to life through coding. I am proficient in HTML, CSS, JavaScript with a basic foundation of React, which allows me to build responsive and dynamic web pages. My coding skills ensure that the final product is pixel-perfect and functions smoothly across all devices. This combination of design and coding expertise sets me apart in the industry.
                     </p>
                     <p>
-                    For the employees, we implemented an internal application to automate the system completely. This solution eliminated the cumbersome paperwork and streamlined operations at Pasco Central. UX Tip: Focus on user-friendly design and intuitive interfaces to reduce training time and improve adoption rates among employees.
+                    n my portfolio, you will find examples of various projects, from websites to mobile apps.
+                    Each project highlights my ability to adapt to different styles and requirements. Whether it's a sleek, modern interface or a playful, vibrant design, I can deliver exceptional results. My work demonstrates a balance of creativity and technical proficiency.
                     </p>
                     <p>
                     The new system enhanced the user experience, making the reservation process seamless for customers and significantly improving operational efficiency for the staff. By prioritizing both customer and employee needs, we created a more efficient and enjoyable experience for everyone involved.
                     </p>
                     <p>
-                    Continuously gather feedback post-launch to iterate and refine the system, ensuring it remains aligned with user needs over time.
+                    By focusing on the end-user and leveraging my skills in wireframing, design, and coding, I ensure that every project is a success. 
                     </p>
                     <p>
-                        <a href="#">Days on The App Store</a>
-                        <a href="#">Days Website</a>
+                    Explore my portfolio to see the full range of my capabilities.
+                    </p>
+                    <p>
+                        <a href="/">Website</a>
                         <a href="https://github.com/Chomasteiger/Portfolio" target="_blank" rel="noopener noreferrer">Check the code here!</a>
                     </p>
                 </div>
                 <img src={image1} className="work-page-image" alt="Work Page" />
                 <img src={image2} className="work-page-image" alt="Work Page" />
                 <img src={image3} className="work-page-image" alt="Work Page" />
-                <img src={image5} className="work-page-image" alt="Work Page" />
-                <img src={image6} className="work-page-image" alt="Work Page" />
-                <img src={image7} className="work-page-image" alt="Work Page" />
-                <img src={image8} className="work-page-image" alt="Work Page" />
-                <img src={image9} className="work-page-image" alt="Work Page" />
+
 
 
                 <div className="back-to-projects">

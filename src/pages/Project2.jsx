@@ -16,7 +16,7 @@ const Project2 = () => {
 
             <div className="work-page slide delay01">
                 <div className="work-page-content">
-                    <h1>Project2</h1>
+                    <h1>MenuHop</h1>
                     <h3 className="text">
                         MenuHop is an innovative app designed to transform the dining experience by allowing customers to order food and drinks, pay their bills, and reserve tables directly from their phones. This integration of key functionalities eliminates the need for traditional menus and reduces wait times, enhancing service efficiency and customer satisfaction.
                     </h3>
