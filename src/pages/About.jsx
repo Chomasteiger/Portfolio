@@ -30,26 +30,33 @@ const About = () => {
 
             <div className="about-page slide delay01">
                 <div className="about">
-                    <h2>Junior product designer specialized in UX, UI and Front-End</h2>
+                    <h2>Junior multimedia designer specialized in UX, UI, logos and websites.</h2>
                     <p className="text">
-                    With a solid foundation in UX/UI design and Front-End development, I have started my professional career working on a variety of individual projects. Despite my status as a junior professional, I have enthusiastically faced numerous challenges, learning and adapting quickly to new technologies and work methods.
+                    My journey into the world of design started with a comprehensive UX Design certification from Google and Coursera. I obtained skills that have been crucial in shaping my approach to design, ensuring that every project I work on is user-centric and accessible.
                     </p>
                     <p className="text">
-                    I have had the opportunity to collaborate with colleagues on projects from their initial stages to their upcoming implementation. My focus on problem-solving has allowed me to develop efficient and effective solutions, always striving to improve and optimize every aspect of the process.
+                    Currently, I'm expanding my expertise with the "Master Digital Design with Adobe Photoshop" course on Udemy. This has been an exciting venture, allowing me to master the art of photo editing and graphic creation. I love how Photoshop empowers me to transform simple ideas into visually stunning realities, making each project unique and impactful.
                     </p>
                     <p className="text">
-                    With a creative mindset and a strong orientation towards user-centered design, I specialize in creating attractive and functional user interfaces. My design process is flexible and easily adapts to the specific needs of each project, encompassing everything from initial research to final evaluation.
+                    My learning journey didn't stop there. I also took specialized courses in Adobe Illustrator and Google Analytics on Domestika. Adobe Illustrator has been a fantastic tool for creating detailed vector illustrations, while Google Analytics has opened my eyes to the power of data in design. Understanding user behavior through analytics helps me make informed decisions that enhance user experience and achieve project goals.
                     </p>
                     <p className="text">
-                    I am committed to continuous improvement, always seeking to learn and acquire new skills that will allow me to grow both professionally and personally.
+                    Web design and development are also areas I'm deeply invested in. I've trained in WordPress using Elementor, gaining the skills to build and customize beautiful, functional websites.
                     </p>
                     <p className="text">
-                    My main motivation is to create products that are not only functional but also provide an excellent user experience. I firmly believe that a collaborative and supportive work environment is key to success, and I strive to positively contribute to the team culture and product quality.
+                    Overall, I'm a multimedia designer driven by a love for innovation and a commitment to excellence. I thrive on creating designs that not only look great but also serve a purpose and resonate with users. My continuous learning and diverse skill set enable me to adapt to new challenges and stay ahead in the ever-evolving digital landscape. I am excited about the future of design and look forward to contributing to meaningful and impactful projects.
                     </p>
                 </div>
                 <img src={profile} className="photo-thomas" alt="Thomas" />
                 <div className="about">
                     <h4>Work Experience</h4>
+                    <div className="multi-row-grid">
+                        <div className="multi-row">
+                            <p className="title">CEO</p>
+                            <p className="entity">Køkken</p>
+                            <p className="years">June 2024 - Today</p>
+                        </div>
+                    </div>
                     <div className="multi-row-grid">
                         <div className="multi-row">
                             <p className="title">Junior Colaborator</p>
@@ -58,6 +65,26 @@ const About = () => {
                         </div>
                     </div>
                     <h4>Education</h4>
+                    <div className="multi-row">
+                        <p className="title">Digital Design Mater with Adobe Photoshop</p>
+                        <p className="entity">Udemy</p>
+                        <p className="years">07/2024 - Today</p>
+                    </div>
+                    <div className="multi-row">
+                        <p className="title">Adobe Illustrator</p>
+                        <p className="entity">Domestika</p>
+                        <p className="years">06/2024 - 06/2024</p>
+                    </div>
+                    <div className="multi-row">
+                        <p className="title">Google Analytics</p>
+                        <p className="entity">Domestika</p>
+                        <p className="years">06/2024 - 06/2024</p>
+                    </div>
+                    <div className="multi-row">
+                        <p className="title">Wordpress + Elementor</p>
+                        <p className="entity">Coursera + Domestika</p>
+                        <p className="years">05/2024 - 05/2024</p>
+                    </div>
                     <div className="multi-row">
                         <p className="title">Full Stack JavaScript</p>
                         <p className="entity">The Odin Project</p>
