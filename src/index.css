@@ -302,7 +302,7 @@ h1 {
 /* ------------ Homepage About Section ------------ */
 
 .about-me {
-    margin: 0px auto;
+    margin: 150px auto 0px auto;
 	max-width: 45vw;
     max-width: 760px;
     padding: 20vw 0 12vw 0; 
