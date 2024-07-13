@@ -6,7 +6,7 @@ import image3 from '../assets/Project4/Imagen 3.jpg';
 import image4 from '../assets/Project4/Imagen 4.jpg';
 
 
-const Project4 = () => {
+const Project5 = () => {
     return (
         <div>
             <div className="header slide">
@@ -46,4 +46,4 @@ const Project4 = () => {
     );
 }
 
-export default Project4;
+export default Project5;
