@@ -1,5 +1,5 @@
 // App.jsx
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import GoogleAnalytics from './GoogleAnalytics';
@@ -12,6 +12,7 @@ import Project3 from './pages/Project3';
 import Project4 from './pages/Project4';
 import Project5 from './pages/Project5';
 import Project6 from './pages/Project6';
+import ConsentBanner from './ConsentBanner';
 
 const TRACKING_ID = "G-ZM8F0WPQ8D"; // Reemplaza con tu propio ID de seguimiento
 ReactGA.initialize(TRACKING_ID);
@@ -26,22 +27,31 @@ const TrackPageView = () => {
   return null;
 };
 
-const App = () => (
-  <Router>
-    <GoogleTagManager />
-    <GoogleAnalytics />
-    <TrackPageView />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/project1" element={<Project1 />} />
-      <Route path="/project2" element={<Project2 />} />
-      <Route path="/project3" element={<Project3 />} />
-      <Route path="/project4" element={<Project4 />} />
-      <Route path="/project5" element={<Project5 />} />
-      <Route path="/project6" element={<Project6 />} />
-    </Routes>
-  </Router>
-);
+const App = () => {
+  const [consentAccepted, setConsentAccepted] = useState(false);
+
+  const handleAccept = () => {
+    setConsentAccepted(true);
+  };
+
+  return (
+    <Router>
+      {!consentAccepted && <ConsentBanner onAccept={handleAccept} />} {/* Mostrar el banner de consentimiento solo si no se ha aceptado */}
+      <GoogleTagManager />
+      <GoogleAnalytics />
+      <TrackPageView />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project1" element={<Project1 />} />
+        <Route path="/project2" element={<Project2 />} />
+        <Route path="/project3" element={<Project3 />} />
+        <Route path="/project4" element={<Project4 />} />
+        <Route path="/project5" element={<Project5 />} />
+        <Route path="/project6" element={<Project6 />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;

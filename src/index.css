@@ -43,6 +43,93 @@
     font-display: swap;
 }
 
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Consentimientos */
+#overlayer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+}
+
+#consent {
+	width: 90%;
+	max-width: 600px;
+	margin: 15vh auto;
+	background: #FFF;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	text-align: center;
+	position: relative;
+}
+
+#consent h2 {
+	font-size: 2rem;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+#consent p {
+	font-size: 1.125rem;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+#consent .buttons {
+	display: flex;
+	justify-content: center;
+}
+
+#consent .buttons button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 600;
+	transition: background-color 0.3s ease;
+}
+
+#consent .buttons button.accept {
+	background-color: #4CAF50;
+	color: #FFF;
+}
+
+#consent .buttons button.accept:hover {
+	background-color: #45a049;
+}
+
+#consent .buttons button.reject {
+	background-color: #f44336;
+	color: #FFF;
+}
+
+#consent .buttons button.reject:hover {
+	background-color: #da190b;
+}
+
+@media screen and (max-width: 767px) {
+	#consent {
+		margin: 10vh auto;
+		width: 95%;
+	}
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
