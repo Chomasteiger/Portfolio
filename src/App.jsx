@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import GoogleAnalytics from './GoogleAnalytics';
+import GoogleTagManager from './GoogleTagManager';
 import Home from './pages/Home';
 import About from './pages/About';
 import Project1 from './pages/Project1';
@@ -27,6 +28,7 @@ const TrackPageView = () => {
 
 const App = () => (
   <Router>
+    <GoogleTagManager />
     <GoogleAnalytics />
     <TrackPageView />
     <Routes>
